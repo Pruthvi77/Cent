@@ -1,1 +1,5 @@
+<<<<<<< HEAD
+this is to test git merge with same file name
+=======
 this is also a same file name
+>>>>>>> master
