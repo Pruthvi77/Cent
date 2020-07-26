@@ -92,7 +92,7 @@ cd ..
 
 mkdir DNNs && cd DNNs
 
-git clone -b develop https://streamhsa:AH64_uh1@github.com/amdcomputelibraries/mlopen && cd mlopen
+git clone -b develop https://github.com/amdcomputelibraries/mlopen && cd mlopen
 printf "mlopen            " >> $final_logfile
 git log | grep -m 1 commit | awk '{printf $2}'>> $final_logfile
 printf "        " >> $final_logfile
@@ -121,7 +121,7 @@ cd ..
 
 mkdir hip_tests && cd hip_tests
 
-git clone -b develop https://streamhsa:AH64_uh1@github.com/rocmsoftwareplatform/hipeigen && cd hipeigen
+git clone -b develop https://github.com/rocmsoftwareplatform/hipeigen && cd hipeigen
 printf "hipeigen          " >> $final_logfile
 git log | grep -m 1 commit | awk '{printf $2}'>> $final_logfile
 printf "        " >> $final_logfile

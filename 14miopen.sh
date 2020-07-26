@@ -1,6 +1,6 @@
 #sudo rm -rf cd ~/Desktop/rocm/workloads/DNNs/mlopen
 #cd ~/Desktop/rocm/workloads/DNNs/
-#git clone -b develop https://streamhsa:AH64_uh1@github.com/amdcomputelibraries/mlopen && cd mlopen
+#git clone -b develop https://github.com/amdcomputelibraries/mlopen && cd mlopen
 
 
 cd ~/Desktop/rocm/workloads/DNNs/mlopen
@@ -11,7 +11,6 @@ echo AH64_uh1 | sudo rm -rf build
 mkdir build && cd build
 export LD_LIBRARY_PATH=/opt/rocm/hip/lib/:/opt/rocm/miopengemm/lib
 
-echo AH64_uh1 | sudo mount -t cifs -o username=taccuser,password=AH64_uh1,vers=1.0 //hydinstreamcqe1/hsa /mnt
 echo AH64_uh1 | sudo cp -rf /mnt/Taccuser/Ravi/LC_testdata/mlopen/* /opt/rocm/include/.
 
 echo AH64_uh1 | sudo yum -y install openssl

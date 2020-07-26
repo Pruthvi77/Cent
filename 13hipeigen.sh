@@ -1,6 +1,6 @@
 #sudo rm -rf cd ~/Desktop/rocm/workloads/hip_tests/hipeigen
 #cd ~/Desktop/rocm/workloads/hip_tests/
-#git clone -b develop https://streamhsa:AH64_uh1@github.com/rocmsoftwareplatform/hipeigen && cd hipeigen
+#git clone -b develop https://github.com/rocmsoftwareplatform/hipeigen && cd hipeigen
 
 cd ~/Desktop/rocm/workloads/hip_tests/hipeigen
 
