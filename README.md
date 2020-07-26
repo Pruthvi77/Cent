@@ -9,7 +9,7 @@ Git has 3 stages
 =======
 # Cent
 test
-This my privete repo
+This my private repo
 
 
 After update--
