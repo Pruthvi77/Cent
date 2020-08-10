@@ -27,13 +27,11 @@ list2 = [i*num for num in range(1,5) for i in input_list ]
 print(list2)
   #['x', 'y', 'z', 'xx', 'yy', 'zz', 'xxx', 'yyy', 'zzz', 'xxxx', 'yyyy', 'zzzz']
 
-input_list = [2,3,4]
-list3 = [ [i+num] for i in input_list for num in range(0,3) ]
+list3 = [ [i+num] for i in range(2,5) for num in range(0,3) ]
 print(list3)
   #[[2], [3], [4], [3], [4], [5], [4], [5], [6]]
 
-input_list = [2,3,4,5]
-list4 = [ [item+num for item in input_list] for num in range(0,4)  ]
+list4 = [ [item+num for item in range(2,6)] for num in range(0,4)  ]
 print(list4)
   #[[2, 3, 4, 5], [3, 4, 5, 6], [4, 5, 6, 7], [5, 6, 7, 8]]
  
